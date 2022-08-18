@@ -92,7 +92,7 @@ def main()->None:
     args = prs.parse_args()
 
     try:
-        main(args)
+        run(args)
     except KeyboardInterrupt:
         from sys import exit
         print("Terminated by user")

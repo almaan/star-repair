@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("requirements.txt","r+") as f:
     req_raw = f.readlines()
@@ -10,6 +10,7 @@ setup(name='repair',
       description='Python Distribution Utilities',
       author='Alma Andersson',
       author_email='alma.andersson@differentiable.net',
+      packages=find_packages(),
       install_requires=reqs,
       python_requires=">=3.7",
       entry_points={"console_scripts":["repair = repair.__main__:main"]},
