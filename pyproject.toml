@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "repair"
+version = "0.1.0"
+description = ""
+authors = ["Alma Andersson <alma.andersson@differentiable.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytest = "^5.2"
+numpy = "^1.21"
+jax = "0.3.1"
+lap = "0.4.0"
+anndata = "0.8.0"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+repair = 'repair.__main__'

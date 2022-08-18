@@ -1,0 +1,6 @@
+pytest>=5.2
+numpy==1.21.4
+jax==0.3.1
+anndata==0.8.0
+jaxlib==0.3.0
+tqdm
