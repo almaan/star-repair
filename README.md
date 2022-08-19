@@ -20,7 +20,7 @@ conda activate repair
 ```
 
 <hr>
-> :warning: if you're experiencing issues with the packages `lap` (for example, the former complaining about an array size mismatch). Then you've somehow, most likely, compiled `lap` with the wrong `numpy` version. One solution that should work for this problem is to execute the following commands in your terminal (whilst being in the conda environment):
+:warning: if you're experiencing issues with the package `lap` (for example, the former complaining about an array size mismatch). Then you've somehow, most likely, compiled `lap` with the wrong `numpy` version. One solution that should work for this problem is to execute the following commands in your terminal (whilst being in the conda environment):
 
 ```sh
 pip uninstall lap
